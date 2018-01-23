@@ -5,3 +5,5 @@ function counting(){
   console.log(i);
 }
 }
+
+counting();
