@@ -1,13 +1,15 @@
 
 function isEven(number){
-  // if (.isString(number)) {
-  if (typeof(number)== "string"){
-  console.log(number + " is not a number!")
+  // if (typeof(number)== "string"){    => another way of doing
+  // if (isNaN(number) === true){       => another other way of doing
+  // if (isNaN(number)){                => Dry code
+  if (Number.isInteger(number)){
+  return number + " is not a number!" // we could use "is not valid
 } else if (number % 2 == 0) {
-  console.log(number + " is even!")
+  return number + " is even!"
 } else {
-  console.log(number + " is odd!")
+  return number + " is odd!"
 };
 }
 
-isEven("bruna");
+console.log(isEven(43));

@@ -6,4 +6,4 @@ function cube(number){
 };
 
 // calling function with parameter
-cube(3);
+console.log(cube(35));
