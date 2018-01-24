@@ -7,3 +7,4 @@ function cube(number){
 
 // calling function with parameter
 console.log(cube(35));
+
